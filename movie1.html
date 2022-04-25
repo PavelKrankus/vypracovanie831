@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavel Krankuš</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+      }
+
+      #menu li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 19px 16px;
+        text-decoration: none;
+      }
+      
+
+      li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+
+      li a.active {
+        color: white;
+        background-color: #f70c2c;
+      }
+      
+       
+
+      #herci {
+          font-size: larger;
+          border-left: 5px solid red;
+          background-color: #f1f1f1;
+          list-style-type: disc;
+          padding: 10px 20px 10px 60px;
+          }
+
+          .li {
+            float: none;
+          }
+          li.r{
+            color: red;
+          }
+          li.g{
+            color: green;
+          }
+          li.b{
+            color: blue;
+          }
+          aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+          }
+      
+
+    </style>
+  </head>
+
+    <body style="background-color: rgb(199, 199, 199); font-family: verdana; font-size: 100%" 
+      display: block;
+      margin: 320px;
+      margin-top: 32px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      margin-left: 8px;>
+
+
+      
+        <ul id="menu">
+          <li><a class="active" href="index.html">Domov</a></li>
+          <li><a href="add-review.html">Pridať recenziu</a></li>
+          <li><a href="chart.html">Rebríček top filmov</a></li>
+        </ul>
+
+       
+        <aside>
+          <p >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qo5jJpHtI1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>Trailer</figcaption>
+          </p> 
+        </aside>
+
+
+        <article>
+          <header>
+        <h1 id="index.html" style="text-align: center">Goodfellas</h1>
+        <h2 style="text-align: center">O filme</h2>
+        </header>
+        <p style="text-align: center">
+          Príbeh vzostupu a pádu <b>Henryho Hilla</b>, ktorý už od detstva sníval o
+          tom, že<br />
+          sa stane mafiánom.
+          <i
+            >Robil pre miestnych gangstrov drobné služby až si ho<br />
+            všimol kmotor Paul Cicero a vzal si ho pod svoje ochranné krídla. S<br />
+            pomocou Tommyho a Jimmyho, ktorý sa stáva jeho priateľom a mentorom,<br />
+            spácha úspešnú lúpež, ožení sa a žije navonok pokojným a usadlým
+            životom.</i
+          ><br />
+          <ins>Napokon sa však dostane do väzenia</ins> a keď ho prepustia, aj
+          napriek<br />
+          Cicerovmu zákazu sa stále viac a viac zapletá do obchodu s drogami...
+        </p>
+        </article>
+
+        <h2 style="text-align: center">Herci</h2>
+          <ul id="herci" class="herci">
+            <li class="r">Robert De Niro</li>
+            <li class="g">Ray Liotta</li>
+            <li class="b">Joe Pesci</li>
+          </ul>
+
+        
+
+        <svg  width="100" height="100">
+          <circle cx="50" cy="50" r="40"
+            stroke="green" stroke-width="4" fill="yellow" />
+            <circle cx="30" cy="40" r="4"
+            stroke="green" stroke-width="4" fill="yellow" />
+            <circle cx="60" cy="40" r="4"
+            stroke="green" stroke-width="4" fill="yellow" />
+            <circle cx="42" cy="60" r="10"
+            stroke="green" stroke-width="4" fill="yellow" />
+            <circle cx="42" cy="55" r="10"
+            stroke="yellow" stroke-width="4" fill="yellow" />
+
+
+        </svg>
+
+  </body>
+</html>

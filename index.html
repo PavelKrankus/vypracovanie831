@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavel Krankuš</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        display: block;
+      }
+
+      li {
+        float: left;
+      }
+
+      #right {
+        float: right;
+      }
+
+      .d li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 19px 16px;
+        text-decoration: none;
+      }
+
+      .d li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+
+      .d li a.active {
+        color: white;
+        background-color: #f70c2c;
+      }
+      .imago {
+        background-image: url("maxresdefault (1).jpg");
+        height: 400px;
+        width: 100%;
+        background-position: top;
+        position: relative;
+        background-size: cover;
+      }
+      .texto {
+        font-family: "Times New Roman", Times, serif;
+        color: #ddd;
+        margin-left: 20px;
+        width: 45%;
+      }
+      h1 {
+        margin-top: 0px;
+        padding-top: 20px;
+        text-transform: uppercase;
+        margin-left: 195px;
+      }
+      .g a:link,
+      a:visited {
+        margin-top: 120px;
+        margin-left: 240px;
+        color: white;
+        border-radius: 10px;
+        background-color: red;
+        padding: 14px 25px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .g a:hover {
+        color: black;
+      }
+      .g a:active {
+        color: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="d" style="font-family: verdana; font-size: 100%">
+      <li><a class="active" href="index.html">Domov</a></li>
+      <li><a href="add-review.html">Pridať recenziu</a></li>
+      <li><a href="chart.html">Rebríček top filmov</a></li>
+      <li id="right">
+        <audio src="bensound-happyrock.mp3" autoplay controls></audio>
+      </li>
+    </ul>
+
+    <div class="imago">
+      <div class="texto">
+        <h1>goodfellas</h1>
+        <p>
+          podľa skutočného príbehu o živote gangstera Henryho Hilla v období
+          medzi rokmi 1955 do 1980
+        </p>
+        <div class="g">
+          <a href="movie1.html">Detail filmu</a>
+        </div>
+      </div>
+    </div>
+
+    <details>
+      <summary>Matrix</summary>
+      <p>nadčasový film</p>
+    </details>
+
+    <details>
+      <summary>Fight Club</summary>
+      <p>perfektný vizuál</p>
+    </details>
+
+    <details>
+      <summary>Goodfellas</summary>
+      <p>podľa skutočného príbehu</p>
+    </details>
+
+    <p></p>
+  </body>
+</html>
